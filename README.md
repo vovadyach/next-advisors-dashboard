@@ -146,7 +146,6 @@ curl "http://localhost:3000/api/advisors?sortBy=name&order=desc" | jq
 
 ## Documentation
 
-- [Assumptions](docs/ASSUMPTIONS.md)
 - [Production TODOs](docs/PRODUCTION_TODOS.md)
 
 ---
