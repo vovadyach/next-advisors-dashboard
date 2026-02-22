@@ -10,8 +10,6 @@ A full-stack application for managing and analyzing financial advisor data. Buil
 ![Tailwind](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss)
 ![Docker](https://img.shields.io/badge/Docker-24-2496ED?logo=docker&logoColor=white)
 
-![img_1.png](task_screenshot.png)
-
 ## Tech Stack
 - **Frontend:** Next.js 14, React, TypeScript, Tailwind CSS
 - **Backend:** Next.js API Routes
