@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Alpha Growth Fund - 401k",
+    "number": "ACC1001",
+    "repId": "9001",
+    "custodian": "Aurora Custody",
+    "holdings": [
+      { "ticker": "ALPHA", "units": 120, "unitPrice": 105.75 }
+    ]
+  },
+  {
+    "name": "Beta Income Portfolio - IRA",
+    "number": "ACC1002",
+    "repId": "9002",
+    "custodian": "Northwind Trust",
+    "holdings": [
+      { "ticker": "BETA", "units": 80, "unitPrice": 87.30 }
+    ]
+  },
+  {
+    "name": "Gamma Balanced - IRA",
+    "number": "ACC1003",
+    "repId": "9003",
+    "custodian": "Aurora Custody",
+    "holdings": [
+      { "ticker": "GAMMA", "units": 50, "unitPrice": 120.10 },
+      { "ticker": "DELTA", "units": 65, "unitPrice": 92.45 }
+    ]
+  },
+  {
+    "name": "Delta Growth - Brokerage",
+    "number": "ACC1004",
+    "repId": "9004",
+    "custodian": "Northwind Trust",
+    "holdings": [
+      { "ticker": "OMEGA", "units": 40, "unitPrice": 150.00 }
+    ]
+  }
+]

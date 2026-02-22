@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: advisor_dashboard
+    volumes:
+      - advisor_dashboard_psql:/var/lib/postgresql/data
+    ports:
+      - 5434:5432
+volumes:
+  advisor_dashboard_psql:

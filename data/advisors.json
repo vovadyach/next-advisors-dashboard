@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Alpha Growth Fund - 401k (Demo)",
+    "number": "ACC-DEMO-1001",
+    "repId": "D-1001",
+    "custodian": "Aurora Custody Sandbox",
+    "holdings": [
+      { "ticker": "ALPHA", "units": 120, "unitPrice": 105.75 }
+    ]
+  },
+  {
+    "name": "Beta Income Portfolio - IRA (Demo)",
+    "number": "ACC-DEMO-1002",
+    "repId": "D-1002",
+    "custodian": "Northwind Trust Demo",
+    "holdings": [
+      { "ticker": "BETA", "units": 80, "unitPrice": 87.3 }
+    ]
+  },
+  {
+    "name": "Gamma Balanced - IRA (Demo)",
+    "number": "ACC-DEMO-1003",
+    "repId": "D-2001",
+    "custodian": "Northwind Trust Demo",
+    "holdings": [
+      { "ticker": "GAMMA", "units": 50, "unitPrice": 120.1 },
+      { "ticker": "DELTA", "units": 65, "unitPrice": 92.45 }
+    ]
+  },
+  {
+    "name": "Delta Growth - Brokerage (Demo)",
+    "number": "ACC-DEMO-1004",
+    "repId": "D-2002",
+    "custodian": "Aurora Custody Sandbox",
+    "holdings": [
+      { "ticker": "OMEGA", "units": 40, "unitPrice": 150.0 }
+    ]
+  }
+]
