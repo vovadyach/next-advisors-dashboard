@@ -130,16 +130,18 @@ curl "http://localhost:3000/api/advisors?sortBy=name&order=desc" | jq
 ├── src/
 │   ├── app/
 │   │   ├── api/             # API routes
+│   │   ├── libs/            # Shared utilities (API, data, stats)   
+│   │   ├── components/      # Reusable building blocks
+│   │   ├── shared/          # Common constants/hooks
 │   │   └── page.tsx         # Page UI
 │   ├── components/          # React components
 │   ├── db/
-│   │   ├── schema/          # Drizzle schema
+│   │   ├── schema.ts        # Drizzle schema
+│   │   ├── schema.types.ts  # Schema types
 │   │   └── index.ts         # DB connection
 │   ├── lib/                 # Utilities
 ├── docs/
-│   ├── ASSUMPTIONS.md
 │   └── PRODUCTION_TODOS.md
-└── drizzle/                 # Migrations
 ```
 
 ---
